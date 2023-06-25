@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+button {
+    width: 130px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.hero-section {
+    background-color: #17B169;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+}
+
+.game-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dimension-info {
+    display: flex;
+    gap: 20px;
+}
+
+.dimension-info > p {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid-area {
+    width: 960px;
+    display: flex;
+}
+
+.grid-cell {
+    flex: auto;
+    border: 1px;
+    border-color: lightgray;
+    border-style: solid;
+}
