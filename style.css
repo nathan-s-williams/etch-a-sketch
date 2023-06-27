@@ -5,6 +5,10 @@
     font-family: "Open Sans", sans-serif;
 }
 
+body{
+    min-height: 1300px;
+}
+
 button {
     width: 130px;
     height: 40px;
@@ -50,20 +54,24 @@ button:hover {
 
 #grid-area {
     width: 960px;
+    height: 960px;
     display: flex;
     flex-direction: column;
 }
 
 .grid-cell-column {
     display: flex;
+    flex: auto;
 }
 
 .grid-cell-row {
     flex: auto;
     border: 1px;
-    /* border-color: lightgray;
-    border-style: solid; */
     outline: 1px solid;
     margin-top: 1px;
     margin-left: 1px;
+}
+
+.grid-cell-row-shaded {
+    background-color: black;
 }
